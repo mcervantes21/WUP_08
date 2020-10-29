@@ -49,3 +49,6 @@ abline(headlen)
 summary.lm(headlen)
 ```
 
+## Conclusion   
+
+The model using HEADLEN is a better model than NECK. This is because the adjusted r-squared for the the HEADLEN model is 0.8434, the adjusted r-squared for the NECK model was 0.7476. The model with the larger r-squared value fits better. 
