@@ -38,3 +38,14 @@ predict(simp,new,se.fit=TRUE)
 pairs(bears)
 ```
 
+It appears that HEADLEN may be a better variable  
+
+
+
+```{r}
+headlen <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(headlen)
+summary.lm(headlen)
+```
+
